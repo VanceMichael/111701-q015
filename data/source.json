@@ -1,0 +1,8 @@
+{
+  "source": "sample-15",
+  "observedAt": "2026-11-17T08:00:00.000Z",
+  "items": [
+    {"id": "15-A", "label": "博物馆预约时段样例甲", "state": "active", "revision": 1},
+    {"id": "15-B", "label": "博物馆预约时段样例乙", "state": "pending", "revision": 1}
+  ]
+}
