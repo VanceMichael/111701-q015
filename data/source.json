@@ -1,8 +1,91 @@
 {
-  "source": "sample-15",
-  "observedAt": "2026-11-17T08:00:00.000Z",
-  "items": [
-    {"id": "15-A", "label": "博物馆预约时段样例甲", "state": "active", "revision": 1},
-    {"id": "15-B", "label": "博物馆预约时段样例乙", "state": "pending", "revision": 1}
-  ]
+  "source": "sample-16",
+  "observedAt": "2026-11-18T02:00:00.000Z",
+  "channels": {
+    "official": [
+      {
+        "slotId": "m101",
+        "venueName": "城市博物馆 · 主展厅",
+        "date": "2026-11-20",
+        "timeRange": "10:00-12:00",
+        "status": "closed",
+        "reason": "场地维护",
+        "revision": 3,
+        "observedAt": "2026-11-18T01:30:00.000Z"
+      },
+      {
+        "slotId": "m103",
+        "venueName": "城市博物馆 · 主展厅",
+        "date": "2026-11-22",
+        "timeRange": "10:00-12:00",
+        "status": "open",
+        "reason": null,
+        "revision": 1,
+        "observedAt": "2026-11-17T09:00:00.000Z"
+      }
+    ],
+    "agency": [
+      {
+        "slotId": "m101",
+        "venueName": "城市博物馆 · 主展厅",
+        "date": "2026-11-20",
+        "timeRange": "10:00-12:00",
+        "bookable": true,
+        "seatsAvailable": 12,
+        "capacity": 30,
+        "revision": 5,
+        "observedAt": "2026-11-18T01:55:00.000Z"
+      },
+      {
+        "slotId": "m102",
+        "venueName": "城市博物馆 · 主展厅",
+        "date": "2026-11-21",
+        "timeRange": "14:00-16:00",
+        "bookable": true,
+        "seatsAvailable": 6,
+        "capacity": 30,
+        "revision": 2,
+        "observedAt": "2026-11-18T01:50:00.000Z"
+      },
+      {
+        "slotId": "m103",
+        "venueName": "城市博物馆 · 主展厅",
+        "date": "2026-11-22",
+        "timeRange": "10:00-12:00",
+        "bookable": true,
+        "seatsAvailable": 18,
+        "capacity": 30,
+        "revision": 1,
+        "observedAt": "2026-11-17T08:30:00.000Z"
+      }
+    ],
+    "manual": [
+      {
+        "slotId": "m101",
+        "venueName": "城市博物馆 · 主展厅",
+        "date": "2026-11-20",
+        "timeRange": "10:00-12:00",
+        "confirmed": true,
+        "confirmedBy": "接待员 · 王敏",
+        "confirmedAt": "2026-11-17T10:15:00.000Z",
+        "expiresAt": "2026-11-19T10:15:00.000Z",
+        "note": "馆方电话确认维护期间保留团体通道",
+        "revision": 1,
+        "observedAt": "2026-11-17T10:20:00.000Z"
+      },
+      {
+        "slotId": "m102",
+        "venueName": "城市博物馆 · 主展厅",
+        "date": "2026-11-21",
+        "timeRange": "14:00-16:00",
+        "confirmed": true,
+        "confirmedBy": "接待员 · 王敏",
+        "confirmedAt": "2026-11-15T09:00:00.000Z",
+        "expiresAt": "2026-11-17T09:00:00.000Z",
+        "note": "上周先行锁定的团体名额",
+        "revision": 1,
+        "observedAt": "2026-11-15T09:10:00.000Z"
+      }
+    ]
+  }
 }
